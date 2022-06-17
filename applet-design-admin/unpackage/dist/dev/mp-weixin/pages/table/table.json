@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "husmalltable-out": "/components/hu-small-table1/hu-small-table1"
+  }
+}
