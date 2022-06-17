@@ -1,0 +1,1 @@
+<view><block wx:for="{{typeIndex}}" wx:for-item="item" wx:for-index="index"><view class="weui-cell" wx-key="index"><view class="weui-label">{{item}}</view><view class="weui-cell__bd"><view class="weui-input">{{''+detailInfos[typeIndexEnglish[index]]+''}}</view></view></view></block></view>

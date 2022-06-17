@@ -1,0 +1,73 @@
+
+page{
+	background-color: #FFFFFF;
+	width:100%;
+	height: 90%;
+}
+.root{
+	width: 100%;
+	height: 90%;
+	margin-top: 10rpx;
+}
+.anaylise{
+	width: 90%;
+	height: 60;
+	margin: 0rpx auto;
+	box-shadow: 0 0 10rpx #f2f2f2;
+}
+.docker{
+	display: inline-block;
+	margin: 0 auto;
+	width:50%;
+	height: 50%;
+	margin:auto 0;
+}
+.item{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin:0 0;
+	line-height: 70rpx;
+	text-align: center;
+	align-items: center;
+	border: 1rpx solid #f2f2f2;
+	padding: 25rpx 0;
+}
+.imgs{
+	width: 70rpx;
+	margin: 0 auto;
+	height: 70rpx;
+	vertical-align:middle;
+	text-align: center;
+	margin-top: 10rpx;
+}
+.item1{
+	display: inline-flex;
+	width: 48%;
+	height: 100rpx;
+	line-height: 100rpx;
+	vertical-align:middle
+}
+.title_bar{
+	width: 100%;
+	height: 100%;
+	border-left: 10rpx solid #60befb;
+	padding-left: 20rpx;
+	margin-bottom: 20rpx;
+	line-height: 20rpxrpx;
+	font-size: 36rpx;
+}
+.title{
+	width: 90%;
+	height:60rpx;
+	margin: 0 auto;
+	box-shadow: 0 0 10rpx #f2f2f2;
+	padding-top: 20rpx;
+	padding-bottom: 20rpx;
+}
+.root1{
+	width: 100%;
+	height: 60%;
+	border-radius: 10rpx;
+}
+

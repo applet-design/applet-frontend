@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "country-info": "/components/countryInfo",
+    "community-info": "/components/communityInfo"
+  }
+}

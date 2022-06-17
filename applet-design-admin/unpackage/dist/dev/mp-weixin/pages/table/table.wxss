@@ -1,0 +1,135 @@
+
+page{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+}
+.root{
+	width: 100%;
+	height: 100%;
+	margin-top:10rpx;
+}
+.search-area{
+	height: 50rpx;
+	background-color: #007AFF;
+	width: 100%;
+}
+picker{
+	height: 100%;
+	line-height: 80rpx;
+}
+picker input{
+	height:20px;
+	min-height:0.8rem;
+}
+.search_bar{
+	width: 100%;
+	height:80rpx;
+	display: inline-flex;
+	border-bottom: 1px solid #CCCCCC;
+	overflow: hidden;
+}
+.search{
+	width: 49%;
+	height: 100%;
+	padding: 10rpx;
+}
+.search_button{
+	display: inline-flex;
+	margin-top: 8rpx;
+}
+.search_select{
+}
+.button{
+	margin-left: 10rpx;
+	height: 60rpx;
+	box-shadow: 0 0 5px #CCCCCC;
+	width: 150rpx;
+	border-radius: 0rpx;
+	height: 65rpx;
+	text-align: center;
+	line-height: 65rpx;
+	background-color: white;
+	font-size: 28rpx;
+	font-family: '微软雅黑';
+}
+.uni-input{
+	border-right: 1px solid #000000;
+}
+.output{
+	margin-left: 10rpx;
+}
+.showInfo{
+	height: 200rpx;
+	width: 100%;
+	color: #000;
+	text-align: center;
+	border: 1px soild #000000;
+	box-shadow: 0 0 5rpx #C0C0C0;
+	line-height: 200rpx;
+}
+.horizonal-tab{
+	height: 110rpx;
+	line-height: 110rpx;
+	background-color: white;
+	font-size: 32rpx;
+	font-family: '宋体';
+	font-weight: bold;
+}
+.horizonal-tab .active{
+	color: red;
+	font-size: 36rpx;
+}
+.scroll-tab{
+	white-space: nowrap; /* 必要，导航栏才能横向*/
+	text-align: center;
+}
+.scroll-tab-item{
+	display: inline-block; /* 必要，导航栏才能横向*/
+	margin: 0 0 0 30rpx;
+}
+.active .scroll-tab-line{
+	border-top: 5rpx solid red;
+	border-radius: 20rpx;
+	width: 100%;
+}
+.table{
+	display: inline-flex;
+	height: 70rpx;
+	line-height: 70rpx;
+	width:150rpx;
+	text-align: center;
+}
+.uni-input{
+	width: 100%;
+}
+.button1{
+	position: absolute;
+	right: 20px;
+	height: 70rpx;
+	line-height: 70rpx;
+	margin: 0rpx;
+	border: none;
+}
+.searchBar{
+	margin: 0rpx;
+	padding: 0rpx;
+	font-size: 26rpx;
+	text-align: center;
+}
+.form{
+	padding: 0rpx;
+	margin: 0rpx;
+	border: 1px soild #000;
+}
+.show{
+	display: none;
+}
+.noshow{
+	display: flex;
+	justify-content: center; /** flex 属性， 水平居中**/
+	width: 100%; 
+	height: 100%; 
+	align-items: center;
+}
+

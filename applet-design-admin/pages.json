@@ -1,0 +1,121 @@
+{
+	"pages": [{
+            "path" : "pages/announcment/announcment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/table/table",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+        {
+            "path" : "pages/test/test",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"subPackages": [
+		{
+			"root": "page1",
+			"pages": [
+				{
+					"path": "addManager/addManager",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "addMaterial/addMaterial",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		{
+			"root": "page2",
+			"pages": [
+				{
+					"path": "analyzePage/analyzePage",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "checkedRequest/checkedRequest",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		{
+			"root": "pages3",
+			"pages": [
+				{
+					"path": "details/details",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		}
+	],
+	
+	
+	
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar":{
+		"selectedColor":"#C0C0C0",
+		"list":[
+			{
+				"pagePath":"pages/announcment/announcment",
+				"text":"通知",
+				"iconPath":"static/tabbar/ic_announcement.png",
+				"selectedIconPath":"static/tabbar/selected_ic_announcement.png"
+			},
+			{
+				"pagePath":"pages/table/table",
+				"text":"审批",
+				"iconPath":"static/tabbar/table.png",
+				"selectedIconPath":"static/tabbar/selected_table.png"
+			},
+			{
+				"pagePath":"pages/test/test",
+				"text":"管理",
+				"iconPath":"static/tabbar/mannger.png",
+				"selectedIconPath":"static/tabbar/selected_mannger.png"
+			}
+		]
+	},
+	"easycom": {
+		"autoscan": true
+	}
+}

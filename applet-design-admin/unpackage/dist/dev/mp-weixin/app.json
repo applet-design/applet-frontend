@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/announcment/announcment",
+    "pages/table/table",
+    "pages/test/test"
+  ],
+  "subPackages": [
+    {
+      "root": "page1",
+      "pages": [
+        "addManager/addManager",
+        "addMaterial/addMaterial"
+      ]
+    },
+    {
+      "root": "page2",
+      "pages": [
+        "analyzePage/analyzePage",
+        "checkedRequest/checkedRequest"
+      ]
+    },
+    {
+      "root": "pages3",
+      "pages": [
+        "details/details"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#C0C0C0",
+    "list": [
+      {
+        "pagePath": "pages/announcment/announcment",
+        "text": "通知",
+        "iconPath": "static/tabbar/ic_announcement.png",
+        "selectedIconPath": "static/tabbar/selected_ic_announcement.png"
+      },
+      {
+        "pagePath": "pages/table/table",
+        "text": "审批",
+        "iconPath": "static/tabbar/table.png",
+        "selectedIconPath": "static/tabbar/selected_table.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "管理",
+        "iconPath": "static/tabbar/mannger.png",
+        "selectedIconPath": "static/tabbar/selected_mannger.png"
+      }
+    ]
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "minifyWXML": true,
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
